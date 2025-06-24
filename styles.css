@@ -93,3 +93,22 @@ nav a {
   text-align: center;
   padding: 1rem 2rem;
 }
+
+.order-form {
+  padding: 2rem;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.order-form input,
+.order-form textarea {
+  width: 80%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.order-form button {
+  margin-top: 1rem;
+}

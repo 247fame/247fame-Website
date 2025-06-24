@@ -12,6 +12,7 @@
     <nav>
       <a href="#about">About</a>
       <a href="#services">Services</a>
+      <a href="#order">Order</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -36,6 +37,33 @@
       <div class="service">🏷️<br>Custom Nameplates</div>
       <div class="service">⚾<br>Ball & Bat Holders</div>
     </div>
+  </section>
+
+  <section id="order" class="order-form">
+    <h2>Place Your Order</h2>
+    <form action="https://formspree.io/f/meokojb" method="POST" enctype="multipart/form-data">
+      <label>Your Name:<br>
+        <input type="text" name="name" required>
+      </label><br><br>
+
+      <label>Email Address:<br>
+        <input type="email" name="email" required>
+      </label><br><br>
+
+      <label>Phone Number:<br>
+        <input type="tel" name="phone">
+      </label><br><br>
+
+      <label>What would you like framed?<br>
+        <textarea name="details" rows="4" placeholder="e.g. A signed jersey from 1996..." required></textarea>
+      </label><br><br>
+
+      <label>Upload Photo (optional):<br>
+        <input type="file" name="photo" accept="image/*">
+      </label><br><br>
+
+      <button type="submit" class="btn black">Submit Order</button>
+    </form>
   </section>
 
   <footer id="contact" class="footer">
